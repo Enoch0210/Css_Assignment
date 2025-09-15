@@ -1,0 +1,57 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px grey;
+}
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: gold;
+    color: red;
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color:brown ; 
+    color: aqua;
+}
+
+ol {
+    background-color: gold;   
+    padding: 5px;
+    width: 500px;
+    margin: 10px;
+    border: 10px solid grey;
+    box-shadow: 0 2px 5px grey;
+   
+}
+ol li {
+    margin: 5px 0;
+}
+
+/* Style for unordered list */
+ul {
+    background: brown;   /* light pink */
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+ul li {
+    background: aqua;   /* darker pink */
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+h4{
+    font-size: 30px;
+}
+p{
+    font: 50px;
+}
+
+
