@@ -1,4 +1,4 @@
-table {
+table{
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
@@ -10,13 +10,13 @@ td {
     text-align: left;
 }
 
-thead {
+thead{
     background-color: gold;
     color: red;
     font-weight: bold;
+   
 }
-
-tr:hover{
+tbody tr:hover{
     background-color:brown ; 
     color: aqua;
 }
