@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial scale=1.0">
+        <title>Pixelgrade Signin</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to bottom, #695199 50%, #ffffff 50%);
+                display: flex;
+                height: 100vh;
+                margin: 0;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: red;
+                font-size: 20px;
+            }
+            a:active{
+                color: black;
+                font-size: 40px;
+            }
+            .container {
+                background: white;
+                padding: 50px;
+                border-radius: 10px;
+                height: 400px;
+                width: 300px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+                justify-content: center;
+                align-items: center;
+            }
+            h2 {
+                color: #695199;
+                font-size: 40px;
+            }
+          
+          
+            .checkbox{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                font-size: 14px;
+                color: #555;
+            }
+            
+            .btn{
+                display: block;
+                width: 100%;
+                padding: 12px;
+                background: #00c4a7;
+                border: none;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 16px;
+                transition: 0.3s;
+            }
+            .btn:hover{
+                background: #00a68a;
+            }
+            .envato-btn{
+                margin-top: 10px;
+                text-align: center;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                background: rgb(238, 233, 233);
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .envato-btn span{
+                color: #3ab54a;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled Tables</a> &nbsp;
+        <a href="cardindex.html">Profile Cards</a> &nbsp;
+        <a href="commentindex.html">Comment Index</a>&nbsp;
+        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <br><br>
+
+        <div class="container">
+            <h2>Sign In</h2>
+            <input type="text" required placeholder="Username or Email Address" style="width:94%;padding:10px;margin-bottom:10px;border:1px solid #ccc;border-radius:5px;"><br><br>
+            <input type="password" required placeholder="Password" style="width:94%;padding:10px;margin-bottom:10px;border:1px solid #ccc;border-radius:5px;"><br><br>
+            
+            <div class="checkbox">
+                <input type="checkbox">
+                <label for="stay">Stay signed in for longer</label>
+            </div>
+
+            <button class="btn">Sign into your account &rarr;</button><br>
+
+            <div class="envato-btn"><br>
+                <span>Continue with Envato</span>
+            </div>
+        </div>      
+    </body>
+</html>

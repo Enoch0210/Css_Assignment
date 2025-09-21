@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Profile Card</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                height: 100vh;
+                background-color: #a0007d;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: red;
+                font-size: 20px;
+            }
+            a:active{
+                color: black;
+                font-size: 40px;
+            }
+            .contact-form{
+                background-color: #fff;
+                border-radius: 15px;
+                padding: 20px;
+                width: 240px;
+                height: 450px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                align-items: center;
+                justify-content: center;
+            }
+           .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #333;
+            }
+            .contact-form input[type="text"],
+            .contact-form input[type="email"],
+            .contact-form input[type="number"],
+            .contact-form textarea {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 20px;
+                padding: 8px 0;
+                outline: none;
+                font-size: 14px;
+            }
+            .contact-form button{
+                width: 100%;
+                background: #f53656;
+                border: none;
+                padding: 10px;
+                border-radius: 25px;
+                color: #fff;
+                font-size: 16px;
+            }
+            .contact-form button:hover {
+                background: #d92a46;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled Tables</a> &nbsp;
+        <a href="cardindex.html">Profile Cards</a> &nbsp;
+        <a href="commentindex.html">Comment Index</a>&nbsp;
+        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+        <br><br>
+
+        <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required><br><br>
+            <input type="email" name="email" placeholder="Email" required><br><br>
+            <input type="number" name="phone" placeholder="Phone" required><br><br>
+
+            <div class="radiogroup">
+                <label>Preffered method of communication</label><br>
+                <input type="radio" name="method" value="email">Email 
+                <input type="radio" name="method" value="phone">Phone
+            </div>
+            <br>
+            <input type="text" placeholder="Message"><br>
+            <button type="button">Submit</button>
+        </form>
+    </body>
+</html> 

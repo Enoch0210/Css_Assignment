@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comment Contact Us</title>
+        <style>
+            body{
+                background-image: url(laptop.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: red;
+                font-size: 20px;
+            }
+            a:active{
+                color: black;
+                font-size: 40px;
+            }
+            .contact-comment{
+                background: #fff;
+                border-radius: 5px;
+                padding: 40px;
+                width: 500px;
+                height: 650px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                align-items: center;
+                justify-content: center;
+            }
+            .contact-comment h2{
+                text-align: center;
+                font-size: 40px;
+                color: #fff;
+                position: relative;
+                background-image: url(zenitsu.jpeg);    
+                background-size: cover;
+                background-position: center;
+                padding: 30px 10px;
+                height: 100px;
+                width: 500px;
+            }
+            
+            .contact-comment input,
+            .contact-comment textarea {
+                width: 100%;
+                border: 5px 0;
+                margin: 10px 0;
+                font-size: 14px;
+                padding: 10px 10px;
+                outline: none;
+            }       
+            
+            .contact-comment textarea {
+                resize:both;
+                height: 100px;
+            }
+            .contact-comment button{
+               border: none;
+               background: indigo;
+               font-size: 14px;
+               padding: 12px 25px;
+               border-radius: 6px;
+               color: white;
+               cursor: pointer;
+               display: block;
+               margin: 0 auto;
+               border-radius: 5px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled Tables</a> &nbsp;
+        <a href="cardindex.html">Profile Cards</a> &nbsp;
+        <a href="commentindex.html">Comment Index</a>&nbsp;
+        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <br><br>
+        <div class="contact-comment">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required><br><br>
+            <input type="email" placeholder="E.g example@gmail.com" required><br><br>
+            <input type="number" placeholder="E.g +1 800 000000" required><br><br>
+
+            <textarea name="Comment" placeholder="Your Comment"></textarea><br><br>
+
+            <button class="button">SEND NOW</button>
+        </form>
+    </body>
+</html>

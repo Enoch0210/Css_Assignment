@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial scale=1.0">
+        <title>Login Page</title>
+        <style>
+            body{
+                background-color: aqua;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+            }
+            a{
+                color: red;
+            }
+            a:hover{
+                color: black;
+                font-size: 20px;
+            }
+            a:active{
+                color: blue;
+                font-size: 40px;
+            }
+            .login-form{
+                background: #fff;
+                padding: 50px;
+                width: 350px;
+                height: 250px;
+                /* border-radius: 6px; */
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                text-align: center;
+                justify-content: center;
+            }
+            .login-form h2{
+                margin: 0 0 10px;
+                color: #2ec4f1;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                font-size: 20px;
+                font-weight: normal;
+            }
+            .login-form input{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                outline: none;
+                font-size: 14px;
+            }
+            .login-form button{
+                width: 107%;
+                padding: 10px;
+                border: none;
+                background-color: #2ec4f1;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 3px;
+                transition: 0.3s ease;
+            }
+            .login-form button:hover{
+                background-color: #1da8d8;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled Tables</a> &nbsp;
+        <a href="cardindex.html">Profile Cards</a> &nbsp;
+        <a href="commentindex.html">Comment Index</a>&nbsp;
+        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <br><br>
+
+        <div class="login-form">
+        <h2>Login To Your Account</h2> 
+        <form>
+            <input type="text" placeholder="Username" required><br><br>
+            <input type="password" placeholder="Password" required><br><br>
+
+            <button class="button">Login</button>
+        </form>
+    </body>
+</html>

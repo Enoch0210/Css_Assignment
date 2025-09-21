@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial scale=1.0">
+        <title>Contact Us Message</title>
+        <style>
+            body{
+                background-image: url(Download\ Snow\ Capped\ Mountain\ Range\ at\ Sunrise\ Nature\ Background\ for\ free.jpg);
+               
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                display: flex;
+                
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: red;
+                font-size: 20px;
+            }
+            a:active{
+                color: black;
+                font-size: 40px;
+            }
+            .contact-box {
+                background: #fff;
+                border-radius: 10px;
+                padding: 40px;
+                width: 400px;
+                height: 500px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                justify-content:space-between;
+                align-items:center;
+            }
+            .contact-box h2 {
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                color: #222;
+            }
+            .contact-box label {
+                display: block;
+                font-size: 12px;
+                margin-bottom: 5px;
+                color: #555;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .contact-box input,
+            .contact-box textarea {
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 25px;
+                font-size: 14px;
+                padding: 8px 0;
+                outline: none;
+            }       
+            .contact-box input:focus,
+            .contact-box textarea:focus {
+                border-bottom: 2px solid #ff416c;
+            }
+            .contact-box textarea {
+                resize: none;
+                height: 80px;
+            }
+            .contact-box button{
+               border: none;
+               background: linear-gradient(to right, #8e2de2, #ff416c);
+               font-size: 14px;
+               padding: 12px 25px;
+               border-radius: 6px;
+               color: white;
+               cursor: pointer;
+               display: block;
+               margin: 0 auto;
+               border-radius: 5px;
+                
+            }
+            .contact-box:hover{
+                opacity: 0.9;
+            }
+           
+        </style>
+    </head> 
+    <body>
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled Tables</a> &nbsp;
+        <a href="cardindex.html">Profile Cards</a> &nbsp;
+        <a href="commentindex.html">Comment Index</a>&nbsp;
+        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <br><br>
+
+        <div class="contact-box">
+        <h2> Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name"  required><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea><br><br>
+
+            <button class="button">Send Your Message</button>
+        </form>
+    </body>
+</html>

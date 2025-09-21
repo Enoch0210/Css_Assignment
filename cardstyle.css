@@ -1,3 +1,8 @@
+    /* a{
+        color: red;
+        font-size: 30px;
+        text-decoration: none;
+    } */
 body{
     display: inline-table;
     justify-content: center;
@@ -5,6 +10,14 @@ body{
     height: 100vh;
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:active{
+    color: black;
+    font-size: 40px;
 }
 .card {
     background: #fff;
