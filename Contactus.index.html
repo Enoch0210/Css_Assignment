@@ -5,18 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact Profile Card</title>
         <style>
-            body{
-                margin: 0;
-                padding: 0;
+            .ody{
+                margin-top: 20px;
+                padding: 10px;
                 display: flex;
                 height: 100vh;
                 background-color: #a0007d;
+                width: 800px;
+                height: 600px;
+                justify-content: center;
+                align-items: center;
             }
             a{
-                color: white;
+                color: red;
             }
             a:hover{
-                color: red;
+                color: brown;
                 font-size: 20px;
             }
             a:active{
@@ -32,6 +36,7 @@
                 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
                 align-items: center;
                 justify-content: center;
+                margin-top: 20px;
             }
            .contact-form h2 {
             margin-bottom: 20px;
@@ -74,23 +79,26 @@
         <a href="loginindex.html">Login Form</a>&nbsp;
         <a href="Messageform.index.html">Contact Message</a>&nbsp;
         <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+        <a href="PostCard.index.html">Media PostCard</a>&nbsp;
+        <a href="profile.index.html">Card Design</a>
         <br><br>
+        <div class="ody">
+            <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name" required><br><br>
+                <input type="email" name="email" placeholder="Email" required><br><br>
+                <input type="number" name="phone" placeholder="Phone" required><br><br>
 
-        <div class="contact-form">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" name="name" placeholder="Name" required><br><br>
-            <input type="email" name="email" placeholder="Email" required><br><br>
-            <input type="number" name="phone" placeholder="Phone" required><br><br>
-
-            <div class="radiogroup">
-                <label>Preffered method of communication</label><br>
-                <input type="radio" name="method" value="email">Email 
-                <input type="radio" name="method" value="phone">Phone
-            </div>
-            <br>
-            <input type="text" placeholder="Message"><br>
-            <button type="button">Submit</button>
-        </form>
+                <div class="radiogroup">
+                    <label>Preffered method of communication</label><br>
+                    <input type="radio" name="method" value="email">Email 
+                    <input type="radio" name="method" value="phone">Phone
+                </div>
+                <br>
+                <input type="text" placeholder="Message"><br>
+                <button type="button">Submit</button>
+            </form>
+        </div>    
     </body>
 </html> 

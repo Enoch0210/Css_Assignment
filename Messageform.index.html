@@ -5,19 +5,23 @@
         <meta name="viewport" content="width= device-width, initial scale=1.0">
         <title>Contact Us Message</title>
         <style>
-            body{
+            .boy{
                 background-image: url(Download\ Snow\ Capped\ Mountain\ Range\ at\ Sunrise\ Nature\ Background\ for\ free.jpg);
                
                 background-repeat: no-repeat;
                 background-size: cover;
                 margin: 0;
                 padding: 0;
-                height: 100vh;
+                height: 700px;
+                width: 800px;
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 
             }
             a{
-                color: white;
+                color: indigo;
+                font-size: 20px;
             }
             a:hover{
                 color: red;
@@ -97,21 +101,24 @@
         <a href="Contactus.index.html">Communication Contact</a>&nbsp;
         <a href="loginindex.html">Login Form</a>&nbsp;
         <a href="Messageform.index.html">Contact Message</a>&nbsp;
-        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+        <a href="PostCard.index.html">Media PostCard</a>&nbsp;
+        <a href="profile.index.html">Card Design</a>
         <br><br>
+        <div class="boy">
+            <div class="contact-box">
+            <h2> Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name"  required><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" required><br><br>
 
-        <div class="contact-box">
-        <h2> Contact Us</h2>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name"  required><br><br>
-            <label for="email">Email</label>
-            <input type="email" id="email" required><br><br>
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea><br><br>
 
-            <label for="message">Message</label>
-            <textarea id="message" required></textarea><br><br>
-
-            <button class="button">Send Your Message</button>
-        </form>
+                <button class="button">Send Your Message</button>
+            </form>
+       </div> 
     </body>
 </html>

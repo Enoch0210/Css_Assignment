@@ -5,12 +5,15 @@
         <meta name="viewport" content="width= device-width, initial scale=1.0">
         <title>Login Page</title>
         <style>
-            body{
+            .bdy{
                 background-color: aqua;
                 margin: 0;
                 padding: 0;
-                height: 100vh;
+                height: 500px;
+                width: 600px;
                 display: flex;
+                justify-content: center;
+                align-items: center;
             }
             a{
                 color: red;
@@ -74,16 +77,19 @@
         <a href="Contactus.index.html">Communication Contact</a>&nbsp;
         <a href="loginindex.html">Login Form</a>&nbsp;
         <a href="Messageform.index.html">Contact Message</a>&nbsp;
-        <a href="Pixelgradeindex.html">PixelGrade</a>
+        <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+        <a href="PostCard.index.html">Media PostCard</a>&nbsp;
+        <a href="profile.index.html">Card Design</a>
         <br><br>
+        <div class="bdy">
+            <div class="login-form">
+            <h2>Login To Your Account</h2> 
+            <form>
+                <input type="text" placeholder="Username" required><br><br>
+                <input type="password" placeholder="Password" required><br><br>
 
-        <div class="login-form">
-        <h2>Login To Your Account</h2> 
-        <form>
-            <input type="text" placeholder="Username" required><br><br>
-            <input type="password" placeholder="Password" required><br><br>
-
-            <button class="button">Login</button>
-        </form>
+                <button class="button">Login</button>
+            </form>
+        </div>
     </body>
 </html>
