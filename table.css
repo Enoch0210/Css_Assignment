@@ -1,0 +1,120 @@
+table {
+    border: 1px solid #e9d8de;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: 1px solid grey;
+    padding: 30px;
+
+}
+
+thead {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    /* overflow: auto; */
+}
+
+.eno {
+    background-color: rgb(207, 205, 205);
+}
+
+.head {
+    border: 1px solid white;
+}
+
+.tab {
+    overflow: auto;
+}
+
+
+/* Blog Card 1 */
+.cook {
+    color: rgb(115, 115, 245);
+}
+
+.see {
+    margin-left: 1000px;
+    color: grey;
+}
+
+.blog-div {
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.blog {
+    border-bottom: 2px solid rgb(125, 125, 255);
+}
+
+.parent {
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.blog-card {
+    position: relative;
+    margin: 20px 10px;
+}
+
+.img {
+    height: 200px;
+    width: 370px;
+    border-radius: 1px 1px 0 0;
+}
+
+.tag {
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    background: rgb(83, 83, 243);
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+.blog-card {
+    box-shadow: 0 0 5px black;
+    width: 370px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: rgb(214, 233, 233);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.com {
+    margin-left: 130px;
+}
+
+.h3 {
+    margin: 10px 25px;
+}
+
+.lo {
+    margin: 10px 25px;
+    color: gray;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Profile Card */

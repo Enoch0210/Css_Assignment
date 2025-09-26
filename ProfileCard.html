@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+        <style>
+            a{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                background-color: orange;
+                border-radius: 20px;
+                padding: 10px;
+                line-height: 50px;
+            }
+            a:hover{
+                color: white;
+            }
+            .bod{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: #0f0f16;
+            }
+            /* Background gradient circles */
+            .circle {
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                backdrop-filter: blur(10px);
+            }
+
+            .circle1 {
+                top: 150px;
+                left: 400px;
+                background: linear-gradient(135deg, #084f97, #0437cf);
+                backdrop-filter: blur(10px);
+            }
+
+            .circle2 {
+                bottom: 0px;
+                top: 550px;
+                right: 400px;
+                background: linear-gradient(135deg, #ff7b00, #ff4e00);
+            }
+
+
+            .card{
+                position: relative;
+                width: 300px;
+                background: rgba(236, 235, 235, 0.05);
+                border-radius: 15px;
+                padding: 30px 20px;
+                text-align: center;
+                border: 1px solid rgb(109, 108, 108);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+                backdrop-filter: blur(10px);
+            }
+
+            .head{
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                border: 3px solid #fff;
+                margin-bottom: 20px;
+            }
+            h2{
+                color: #fff;
+                font-size: 23px;
+                margin-bottom: 5px;
+            }
+            p{
+                color: gray;
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+            .icons a{
+                width: 40px;
+                height: 40px;
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 50%;
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            .icons a:hover{
+                background: #fff;
+                color: #000;
+            }
+            .a{
+                color: red;
+            }
+            .b{
+                color: rgb(67, 67, 240);
+            }
+            .c{
+                color: rgb(219, 219, 64);
+            }
+            .d{
+                color: rgb(21, 155, 21);
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                color: #fff;
+            }
+            .mess{
+                padding: 10px 25px;
+                border: none;
+                border-radius: 5px;
+                background: rgba(255, 255, 255, 0.15);
+                color: #fff;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .mess:hover{
+                background-color: gray;
+            }
+            .sub{
+                padding: 10px 25px;
+                border: none;
+                border-radius: 5px;
+                background: rgba(255, 255, 255, 0.15);
+                color: #fff;
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .sub:hover{
+                background-color: gray;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <a href="index.html">Letter</a> &nbsp;
+        <a href="index-boder.html">Image</a>&nbsp;
+        <a href="dindex.html">Styled-Tables</a> &nbsp;
+        <a href="cardindex.html">Profile-Cards</a> &nbsp;
+        <a href="commentindex.html">Comment-Index</a>&nbsp;
+        <a href="Contactus.index.html">Contact-Us</a>&nbsp;
+        <a href="loginindex.html">Login Form</a>&nbsp;
+        <a href="Messageform.index.html">Contact-Message</a>&nbsp;
+        <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+        <a href="PostCard.index.html">Media-PostCard</a>&nbsp;
+        <a href="profile.index.html">Card-Design</a>&nbsp;
+        <a href="ProfileCard.html">Card-Profile</a>&nbsp;
+        <a href="table.html">Styling-Table</a>
+        <br><br>
+        <div class="bod">
+            <!-- Background gradient circles -->
+            <div class="new">
+                <div class="circle circle1"></div>
+                <div class="circle circle2"></div>
+            </div>
+
+            
+            <div class="card">
+                <img src="mark.jpg" alt="head-photo" class="head">
+                <h2>Monalisha Roy</h2>
+                <p>I am a professional web designer</p>
+                
+
+
+                <div class="icons">
+                    <a href="#"><i class="bi bi-youtube a"></i></a>
+                    <a href="#"><i class="bi bi-facebook b"></i></a>
+                    <a href="#"><i class="bi bi-google c"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp d"></i></a>
+                </div>
+
+                <div class="buttons">
+                    <button class="mess">Message</button>
+                    <button class="sub">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

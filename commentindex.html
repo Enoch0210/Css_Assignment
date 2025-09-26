@@ -9,104 +9,114 @@
                 background-image: url(laptop.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                margin: 0;
-                padding: 0;
-                width: 800px;
-                height: 900px;
+                width: 100%;
+                height: 800px;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+                
+            }
+            /* .zen{
+                height: 300px;
+                width: 300px;
+            } */
+            .hea{
+                background-image: url(zenitsu.jpeg);
+                background-size: cover;
+                padding: 20px 10px;
+                width: 330px;
+                height: 100px;
+            }
+            .cardo{
+                box-shadow: 0 8px 20px black;
+                background: white;
+                width: 350px;   
+                /* text-align: center; */
+            }
+            .boy{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                height: 100vh;
+                position: relative;
+               
+            }
+            .rest{
+                padding: 20px 10px;
+            }
+            input[type="text"]{
+                padding: 10px 70px;               
+            }
+            input[type="email"]{
+                padding: 10px 70px;
                 
+            }
+            input[type="number"]{
+                padding: 10px 70px;
+            }
+            .mov{
+                padding: 10px 75px;
+                height: 100px;
+            }
+            .button{
+                background-color: indigo;
+                border-radius: 15px;
+                padding: 5px 30px;
+                margin: 5px 90px;
+                color: white;
+            }
+            .button:hover{
+                background-color: rgb(112, 24, 179);
             }
             a{
-                color: red;
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                background-color: orange;
+                border-radius: 20px;
+                padding: 10px;
+                line-height: 50px;
             }
             a:hover{
-                color: indigo;
-                font-size: 20px;
-            }
-            a:active{
-                color: black;
-                font-size: 40px;
-            }
-            .contact-comment{
-                background: #fff;
-                border-radius: 5px;
-                padding: 40px;
-                width: 500px;
-                height: 650px;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-                align-items: center;
-                justify-content: center;
-            }
-            .contact-comment h2{
-                text-align: center;
-                font-size: 40px;
-                color: #fff;
-                position: relative;
-                background-image: url(zenitsu.jpeg);    
-                background-size: cover;
-                background-position: center;
-                padding: 30px 10px;
-                height: 100px;
-                width: 500px;
+                color: white;
             }
             
-            .contact-comment input,
-            .contact-comment textarea {
-                width: 100%;
-                border: 5px 0;
-                margin: 10px 0;
-                font-size: 14px;
-                padding: 10px 10px;
-                outline: none;
-            }       
-            
-            .contact-comment textarea {
-                resize:both;
-                height: 100px;
-            }
-            .contact-comment button{
-               border: none;
-               background: indigo;
-               font-size: 14px;
-               padding: 12px 25px;
-               border-radius: 6px;
-               color: white;
-               cursor: pointer;
-               display: block;
-               margin: 0 auto;
-               border-radius: 5px;
-                
-            }
-
         </style>
     </head>
     <body>
         <a href="index.html">Letter</a> &nbsp;
         <a href="index-boder.html">Image</a>&nbsp;
-        <a href="dindex.html">Styled Tables</a> &nbsp;
-        <a href="cardindex.html">Profile Cards</a> &nbsp;
-        <a href="commentindex.html">Comment Index</a>&nbsp;
-        <a href="Contactus.index.html">Communication Contact</a>&nbsp;
+        <a href="dindex.html">Styled-Tables</a> &nbsp;
+        <a href="cardindex.html">Profile-Cards</a> &nbsp;
+        <a href="commentindex.html">Comment-Index</a>&nbsp;
+        <a href="Contactus.index.html">Contact-Us</a>&nbsp;
         <a href="loginindex.html">Login Form</a>&nbsp;
-        <a href="Messageform.index.html">Contact Message</a>&nbsp;
+        <a href="Messageform.index.html">Contact-Message</a>&nbsp;
         <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
-        <a href="PostCard.index.html">Media PostCard</a>&nbsp;
-        <a href="profile.index.html">Card Design</a>
+        <a href="PostCard.index.html">Media-PostCard</a>&nbsp;
+        <a href="profile.index.html">Card-Design</a>&nbsp;
+        <a href="ProfileCard.html">Card-Profile</a>&nbsp;
+        <a href="table.html">Styling-Table</a>
         <br><br>
+
         <div class="bodyy">
-            <div class="contact-comment">
-            <h2>Contact Us</h2>
-            <form>
-                <input type="text" placeholder="Full Name" required><br><br>
-                <input type="email" placeholder="E.g example@gmail.com" required><br><br>
-                <input type="number" placeholder="E.g +1 800 000000" required><br><br>
+            <div class="boy">
+                <div class="cardo">
+                    <div class="hea">
+                        <!-- <img src="zenitsu.jpeg" alt="zen" class="zen"> -->
+                        <h2 class="z">Contact Us</h2>
+                    </div>
+                    <div class="rest">
+                        <input type="text" placeholder="Full Name" required><br><br>
+                        <input type="email" placeholder="E.g example@gmail.com" required><br><br>
+                        <input type="number" placeholder="E.g +1 800 000000" required><br><br>
 
-                <textarea name="Comment" placeholder="Your Comment"></textarea><br><br>
+                        <textarea class="mov" name="Comment" placeholder="Your Comment"></textarea><br><br>
 
-                <button class="button">SEND NOW</button>
-            </form>
+                        <button class="button">SEND NOW</button>
+                    </div>
+                </div>
+            </div>
         </div>    
     </body>
 </html>
