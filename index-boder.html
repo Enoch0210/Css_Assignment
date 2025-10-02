@@ -6,10 +6,11 @@
         <meta name="description" content="Welcome to my page, Where i created an image border">
         <meta name="author" content="Ige Enoch">
         <title>BODER ASSIGNMENT</title>
+        <link rel="stylesheet" href="navbar.css">
         <link rel="stylesheet" href="style-border.css">
 
         <style>
-            img{
+            .im{
             border: 5px solid blueviolet ; /* thickness, style, and color */
             border-radius: 10px; /* optional: makes the corners rounded */
             width: 550px;
@@ -36,41 +37,48 @@
                 margin: 20px 10px 5px 5px;
                 text-align: center;
             }
-            a{
-                color: black;
-                font-size: 20px;
+           a{
+                color: white;
+                font-size: 16px;
                 text-decoration: none;
-                background-color: orange;
                 border-radius: 20px;
-                padding: 10px;
-                line-height: 50px;
+                padding: 14px;
+                line-height: 30px;
             }
             a:hover{
                 color: white;
+            }
+            .pfp{
+                height: 100px;
+                width: 100px;
             }
         </style>
     </head>
    
     <body>
-        <a href="index.html">Letter</a> &nbsp;
-        <a href="index-boder.html">Image</a>&nbsp;
-        <a href="dindex.html">Styled-Tables</a> &nbsp;
-        <a href="cardindex.html">Profile-Cards</a> &nbsp;
-        <a href="commentindex.html">Comment-Index</a>&nbsp;
-        <a href="Contactus.index.html">Contact-Us</a>&nbsp;
-        <a href="loginindex.html">Login Form</a>&nbsp;
-        <a href="Messageform.index.html">Contact-Message</a>&nbsp;
-        <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
-        <a href="PostCard.index.html">Media-PostCard</a>&nbsp;
-        <a href="profile.index.html">Card-Design</a>&nbsp;
-        <a href="ProfileCard.html">Card-Profile</a>&nbsp;
-        <a href="table.html">Styling-Table</a>&nbsp;
-        <a href="header.html">Header</a>
+        <div class="ba">
+            <img src="ok.png" alt="pfp" class="pfp">
+            <a href="index.html">Letter</a> &nbsp;
+            <a href="index-boder.html">Image</a>&nbsp;
+            <a href="dindex.html">Styled-Tables</a> &nbsp;
+            <a href="cardindex.html">Profile-Cards</a> &nbsp;
+            <a href="commentindex.html">Comment-Index</a>&nbsp;
+            <a href="Contactus.index.html">Contact-Us</a>&nbsp;
+            <a href="loginindex.html">Login Form</a>&nbsp;
+            <a href="Messageform.index.html">Contact-Message</a>&nbsp;
+            <a href="Pixelgradeindex.html">PixelGrade</a>&nbsp;
+            <a href="PostCard.index.html">Media-PostCard</a>&nbsp;
+            <a href="profile.index.html">Card-Design</a>&nbsp;
+            <a href="ProfileCard.html">Card-Profile</a>&nbsp;
+            <a href="table.html">Styling-Table</a>&nbsp;
+            <a href="header.html">Header</a>
+            <a href="stable.html">Styling-Game</a>
+        </div>
         <br><br>
         
         
         <h2>Image with Border Outside the Box</h2>
-        <img src="zenitsu.jpeg" alt="Sample image" width="300">
+        <img src="zenitsu.jpeg" alt="Sample image" width="300" class="im">
         <section>
             <h3>Section with Background and Inner Shadow</h3>
             <p>This section has a background color and a shadow inside the box.</p>

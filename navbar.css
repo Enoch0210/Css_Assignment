@@ -1,0 +1,9 @@
+.ba {
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 66, 83);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(127, 192, 214);
+    font-size: 5px;
+}
